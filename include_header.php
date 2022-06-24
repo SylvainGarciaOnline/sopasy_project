@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/styleIndex.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="media/logo_sopasy.png"/>
     <title>sopasy</title>
@@ -31,10 +31,10 @@
             <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about_us.php">A propos</a>
+            <a class="nav-link active" href="about.php">A propos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Nos réalisations
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,6 +43,9 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="portfolio.php">Portfolio</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
