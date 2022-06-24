@@ -12,12 +12,6 @@ if(isset($_POST['data-username']) && !empty($_POST['data-username'])
     $contact_subject = strip_tags($_POST['data-object']);
     $contact_message = strip_tags($_POST['data-message']);   
 
-    if(mail($mail_recipient, $contact_subject, $contact_message, $mail_headers)){
-        $_SESSION['message'] = "Message envoyé !";
-    } else {
-        $_SESSION['message'] = "Le message n'a pas été envoyé...";
-    }
-
     require_once('db-connect.php');
 
     $sql = 'INSERT INTO `tbl_contacts` (`contact_username`, `contact_email`, `contact_subject`, `contact_message`) VALUES (:contact_username, :contact_email, :contact_subject, :contact_message)';
