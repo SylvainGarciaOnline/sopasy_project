@@ -66,11 +66,25 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Bienvenue chez Sopasy!</div>
+        <div class="intro-lead-in">Bienvenue chez
+        <img src="media/logo_sopasy.png" width="150px" height="55px" alt="logo sopasy">!</div>
         <div class="intro-heading text-uppercase">La Communication Web So Easy</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">En savoir plus</a>
-      </div>
-    </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="container">   
+        <div class="row">
+        <div class="col-4"> </div>
+        <div class="col-4"> </div>
+                <div class="col-4" style="background-color: #312F30;">
+                  <h2 class="text-uppercase" style="color: #FF9100;">#Agence Digitale</h2>
+                  <p class="intro-lead-in" style="color: white;">Nous sommes une équipe de passionnés, créative, 100% dijonnaise <br>à l’écoute de vos projets de créations numériques</p>
+
+                </div>
+          </div>
+
+
   </header>
 
   <!-- Services 
