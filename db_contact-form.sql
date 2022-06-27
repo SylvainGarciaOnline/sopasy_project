@@ -10,10 +10,10 @@ CREATE TABLE `tbl_contact-form` (
   `contact_id` int(11) NOT NULL AUTO_INCREMENT,
   `contact_username` varchar(255) NOT NULL,
   `contact_email` varchar(255) NOT NULL,
-  `contact_subject` varchar(255) NOT NULL,
+  `contact_phone` int(10) NOT NULL,
   `contact_message` text NOT NULL,
   PRIMARY KEY (`contact_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
--- 2022-06-24 11:41:28
+-- 2022-06-27 08:09:07

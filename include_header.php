@@ -12,8 +12,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/styleIndex.css">
+    <link rel="stylesheet" href="css/agency.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="media/logo_sopasy.png"/>
+    
     <title>sopasy</title>
 </head>
 <body>
@@ -45,7 +47,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
+            <a class="nav-link active" aria-current="page" href="view_contact-form.php">Contact</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
