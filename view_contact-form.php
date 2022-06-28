@@ -1,4 +1,5 @@
 <?php include 'include_header.php'; ?>
+
 <section class="page-section" id="contact">
     <div class="container">
         <div class="row">
@@ -41,4 +42,6 @@
         </div>
     </div>
 </section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5404.571530607853!2d5.0470744446361975!3d47.3673408143986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ed623aa0dd4247%3A0xff4c5acfe9c56d3a!2s8c%20Rue%20Jeanne%20Barret%2C%2021000%20Dijon!5e0!3m2!1sfr!2sfr!4v1656341273493!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a href="https://www.google.fr/maps/place/8c+Rue+Jeanne+Barret,+21000+Dijon/@47.3673408,5.0470744,16z/data=!4m5!3m4!1s0x47ed623aa0dd4247:0xff4c5acfe9c56d3a!8m2!3d47.3675007!4d5.0492524"></a></iframe>
 <?php include 'include_footer.php'; ?>

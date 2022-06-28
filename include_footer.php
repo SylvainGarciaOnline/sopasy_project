@@ -6,7 +6,7 @@
             <a href="about.php">A propos</a>
         </div>
         <div>
-            <a href="contact.php">Contact</a>
+            <a href="view_contact-form.php">Contact</a>
         </div>
         <div>
             <p>Site réalisé par sopasy&copy; - 2022</p>
