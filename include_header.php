@@ -20,6 +20,7 @@
   <!-- Custom styles for index.php template -->
   <link href="css/agency.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styleIndex.css">
+  <link rel="stylesheet" href="css/presentation.css"/>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -46,7 +47,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about.php">A propos</a>
+            <a class="nav-link active" href="presentation.php">A propos</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

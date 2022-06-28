@@ -3,7 +3,7 @@
             <a href="index.php">Accueil</a>
         </div>
         <div>
-            <a href="about.php">A propos</a>
+            <a href="presentation.php">A propos</a>
         </div>
         <div>
             <a href="view_contact-form.php">Contact</a>
