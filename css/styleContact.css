@@ -3,17 +3,16 @@
 section#contact_us{
     font-family: 'Roboto', sans-serif;
     background-color: #c22121;    
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 .address, .phone, .email{
     text-align: center;
-    margin-top: 7vw;
+    margin-top: 4vw;
+    font-weight: bolder;
 }
 .joinus{
     text-align: center;
     font-weight: bolder;
     margin-bottom: 3vw;
-}
-#contact_us{
-    padding-top: 3vw;
-    padding-bottom: 3vw;
 }
