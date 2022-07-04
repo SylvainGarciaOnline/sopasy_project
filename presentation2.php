@@ -1,19 +1,9 @@
-<html lang="fr">
+<?php include 'include_header.php' ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-   <link rel="stylesheet" href="./presentation.css" />
-    <title>Présentation Sopasy</title>
-</head>
-
-<body>
-    <section class="section1">
+    <section>
             <h1>Qui sommes nous ?</h1>
             <h3> Présentation </h3>
-                <div class="texte">
+                <div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ad cumque quo quisquam tempore quaerat aliquam tempora nobis eaque esse similique enim nihil labore deleniti
@@ -24,7 +14,7 @@
             <h3>
                 Nos Parcours
             </h3>
-                <div class="texte">
+                <div>
                 <p> 
                     Etudiants à Online Forma Pro nous avons mis en place ce projet de site web "Sopasy" dans le but d'accompagner des professionnels ou des particuliers dans la création  de site web.
                     Citation : Sopasy, créer votre site n’a jamais été aussi simple
@@ -32,39 +22,35 @@
                 </div>
     <!-- je créer des sous catégrories avec nos noms-->
     <!-- insérer des images pro de  nous-->
-             <div class="box">
-                <div class=" image3">
-                    <div class="img2" ><img src="media_sophie/profili.jpg" alt="imageprofil"></div>
+             <div>
+                
                     Sophie-Anne Lambert
                     </div>
                     <!-- agrandir les images-->
-                <div class=" image3">
+                <div>
                     <!-- faire des blocs , insérer nos images pro-->
-                    <div class="img2" ><img src="media_sophie/profil2i.jpg" alt="imageprofil2"></div>  
+                    
                     Sylvain Garcia
                 </div>   
-                <div class=" image3">
-                    <div class="img2" >
-                        <img src="media_sophie/profil3i.jpg" alt="imageprofil3"> </div>  
-                    Patrick Mago
+                <div>
+                    
+                        Patrick Mago 
+                    
                 </div>
             </div>
         <!---aside information complémentaires , article pour décrire un article , la section doit contenir ça -->
     </section>
-        <section class="section2">
 
-        <p>
-            Patrick Mago
-        </p>
-         <p>
-            Sophie-Anne Lambert
-        </p>
-        <p>
-        Sylvain Garcia
-        </p>
+    <section>
+                <p >
+                Patrick Mago </br>
+                </p>
+                <p>
+                    Sophie-Anne Lambert </br>
+                </p>
+                <p>
+                    Sylvain Garcia
+                </p>
+    </section>
 
-        </section>
-</body>
-</body>
-
-</html>
+<?php include 'include_footer.php'?>

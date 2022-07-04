@@ -22,36 +22,35 @@
                 </div>
     <!-- je créer des sous catégrories avec nos noms-->
     <!-- insérer des images pro de  nous-->
-             <div class="box">
-                <div class=" image3">
-                    <div class="img2" ><img src="media_sophie/profili.jpg" alt="imageprofil"></div>
+             <div class="box1">
+                
                     Sophie-Anne Lambert
                     </div>
                     <!-- agrandir les images-->
-                <div class=" image3">
+                <div class=" box2">
                     <!-- faire des blocs , insérer nos images pro-->
-                    <div class="img2" ><img src="media_sophie/profil2i.jpg" alt="imageprofil2"></div>  
+                    
                     Sylvain Garcia
                 </div>   
-                <div class=" image3">
-                    <div class="img2" >
-                        <img src="media_sophie/profil3i.jpg" alt="imageprofil3"> </div>  
-                    Patrick Mago
+                <div class=" box3">
+                    
+                        Patrick Mago 
+                    
                 </div>
             </div>
         <!---aside information complémentaires , article pour décrire un article , la section doit contenir ça -->
     </section>
-        <section class="section2">
 
-        <p>
-            Patrick Mago
-        </p>
-         <p>
-            Sophie-Anne Lambert
-        </p>
-        <p>
-        Sylvain Garcia
-        </p>
+    <section class="team">
+                <p id="patrick">
+                Patrick Mago </br>
+                </p>
+                <p id="sophie">
+                    Sophie-Anne Lambert </br>
+                </p>
+                <p id="sylvain">
+                    Sylvain Garcia
+                </p>
+    </section>
 
-        </section>
 <?php include 'include_footer.php'?>
