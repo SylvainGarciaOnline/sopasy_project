@@ -1,9 +1,9 @@
 <?php include 'include_header.php' ?>
 
-    <section class="section1">
+    <section>
             <h1>Qui sommes nous ?</h1>
             <h3> Présentation </h3>
-                <div class="texte">
+                <div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ad cumque quo quisquam tempore quaerat aliquam tempora nobis eaque esse similique enim nihil labore deleniti
@@ -14,7 +14,7 @@
             <h3>
                 Nos Parcours
             </h3>
-                <div class="texte">
+                <div>
                 <p> 
                     Etudiants à Online Forma Pro nous avons mis en place ce projet de site web "Sopasy" dans le but d'accompagner des professionnels ou des particuliers dans la création  de site web.
                     Citation : Sopasy, créer votre site n’a jamais été aussi simple
@@ -22,17 +22,17 @@
                 </div>
     <!-- je créer des sous catégrories avec nos noms-->
     <!-- insérer des images pro de  nous-->
-             <div class="box1">
+             <div>
                 
                     Sophie-Anne Lambert
                     </div>
                     <!-- agrandir les images-->
-                <div class=" box2">
+                <div>
                     <!-- faire des blocs , insérer nos images pro-->
                     
                     Sylvain Garcia
                 </div>   
-                <div class=" box3">
+                <div>
                     
                         Patrick Mago 
                     
@@ -41,14 +41,14 @@
         <!---aside information complémentaires , article pour décrire un article , la section doit contenir ça -->
     </section>
 
-    <section class="team">
-                <p id="patrick">
+    <section>
+                <p >
                 Patrick Mago </br>
                 </p>
-                <p id="sophie">
+                <p>
                     Sophie-Anne Lambert </br>
                 </p>
-                <p id="sylvain">
+                <p>
                     Sylvain Garcia
                 </p>
     </section>
