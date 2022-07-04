@@ -42,7 +42,7 @@
         </div>
     </div>
 </section>
-<section id="contact_us">
+<section class="page-section" id="contact_us">
     <div class="container">
         <div class="row">
             <h1 class="joinus">Nous rejoindre</h1>

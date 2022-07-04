@@ -10,7 +10,16 @@ if(isset($_POST['data-username']) && !empty($_POST['data-username'])
     $contact_username = strip_tags($_POST['data-username']);
     $contact_email = strip_tags($_POST['data-email']);
     $contact_phone = strip_tags($_POST['data-phone']);
-    $contact_message = strip_tags($_POST['data-message']);   
+    $contact_message = strip_tags($_POST['data-message']);
+    
+    $mail_recipient = "s.garcia@codeur.online";
+    $mail_headers = "From:" . $contact_username . "<" . $contact_email . ">\r\n";
+
+        if(mail($mail_recipient, $contact_subject, $contact_message, $mail_headers)){
+            $_SESSION['message'] = "Message envoyé !";
+        } else {
+            $_SESSION['message'] = "Le message n'a pas été envoyé...";
+        }
 
     require_once('db_connect.php');
 
