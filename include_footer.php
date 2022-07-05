@@ -9,6 +9,9 @@
             <a href="view_contact-form.php">Contact</a>
         </div>
         <div>
+            <a href="legal_notices.php">Mentions légales</a>
+        </div>
+        <div>
             <p>Site réalisé par sopasy&copy; - 2022</p>
         </div>
     </footer>

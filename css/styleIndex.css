@@ -4,6 +4,13 @@
 header {
     font-family: 'Roboto', sans-serif;
     background-color: #aadeee;
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 footer {
