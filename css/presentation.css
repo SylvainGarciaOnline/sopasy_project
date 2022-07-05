@@ -1,11 +1,56 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-h1 { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 7rem;
-    text-transform: uppercase; 
-    text-align: center;
-    color: white;  
-}
+.texte  {
+ font-family: 'Roboto', sans-serif;
+font-size: medium;
+color : black ;
+    }
 
+/*
+
+.box {  display: flex  ;
+    flex-wrap: wrap-reverse;
+    align-content: space-between, center;
+    margin: auto;
+    
+ }  */
+
+ .box 
+    {
+        column-width: 300px;
+        column-gap: 20px;
+      }
+
+ 
+
+.prenom1 {
+    
+    width: 160px;
+    height: 80px;
+    padding: 70px;
+    border: 8px solid orange;
+    background-color:orange;  
+   
+    }
+
+.prenom2 {
+    
+    width: 160px;
+    height: 80px;
+    padding: 70px;
+    border: 8px solid red;
+    background-color: red;
+    position: left 10%;
+    
+    }
+
+.prenom3{ 
+
+    width: 160px;
+    height: 80px;
+    padding: 70px;
+    border: 8px solid rgb(109, 189, 255);
+    background-color:rgb(109, 189, 255);
+   
+    }   

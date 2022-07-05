@@ -19,38 +19,28 @@
                     Etudiants à Online Forma Pro nous avons mis en place ce projet de site web "Sopasy" dans le but d'accompagner des professionnels ou des particuliers dans la création  de site web.
                     Citation : Sopasy, créer votre site n’a jamais été aussi simple
                 </p>
-                </div>
     <!-- je créer des sous catégrories avec nos noms-->
     <!-- insérer des images pro de  nous-->
-             <div class="box1">
-                
+                    <div class="box"> 
+                        <div class= "prenoms">
+                        <p class="prenom1">
                     Sophie-Anne Lambert
-                    </div>
+                         </p>
                     <!-- agrandir les images-->
-                <div class=" box2">
                     <!-- faire des blocs , insérer nos images pro-->
-                    
+                        <p class= "prenom2">
                     Sylvain Garcia
-                </div>   
-                <div class=" box3">
-                    
-                        Patrick Mago 
-                    
+                        </p>
+                         <p class= "prenom3">
+                    Patrick Mago 
+                        </p>
+
                 </div>
-            </div>
+                    </div>
+                    </div>
         <!---aside information complémentaires , article pour décrire un article , la section doit contenir ça -->
     </section>
 
-    <section class="team">
-                <p id="patrick">
-                Patrick Mago </br>
-                </p>
-                <p id="sophie">
-                    Sophie-Anne Lambert </br>
-                </p>
-                <p id="sylvain">
-                    Sylvain Garcia
-                </p>
-    </section>
+ 
 
 <?php include 'include_footer.php'?>
