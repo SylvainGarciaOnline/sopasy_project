@@ -5,6 +5,7 @@ section#contact_us{
     background-color: #c22121;    
     padding-top: 3vw;
     padding-bottom: 3vw;
+    color: white;
 }
 .address, .phone, .email{
     text-align: center;
